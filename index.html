@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Length converter</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+<div class="container mt-2">
+    <div class="row justify-content-center">
+        <div class="col-md-12">
+            <div class="card custom-card">
+                <div class="card-body">
+                    <h1 class="card-title text-dark text-center">Length Converter</h1>
+                    
+                    <div class="form-group">
+                        <label for="meters">Meters</label><input type="number" class="form-control" id="meters" name="" placeholder="Meters" oninput="convertToOthers('meters',this.value)">
+                    </div>
+                    <div class="form-group">
+                        <label for="centimeters">Centimeters</label><input type="number" class="form-control" id="centimeters"  name="" placeholder="Centimeters" oninput="convertToOthers('centimeters',this.value)" >
+                    </div>
+                    <div class="form-group">
+                        <label for="inches">Inches</label><input type="number" class="form-control" id="inches"  name="" placeholder="Inches" oninput="convertToOthers('inches',this.value)">
+                    </div>
+                    <div class="form-group">
+                        <label for ="feet">Feet</label><input type="number" class="form-control" id="feet" name="" placeholder="Feet" oninput="convertToOthers('feet',this.value)">
+                    </div>
+                    <div class="form-group">
+                        <label for="yards">Yards</label><input type="number" class="form-control" id="yards" name="" placeholder="Yards" oninput="convertToOthers('yards',this.value)">
+                    </div>
+                    <div class="form-group">
+                        <label for="miles">Miles</label><input type="number" class="form-control" id="miles"  name="" placeholder="Miles" oninput="convertToOthers('miles',this.value)">
+                    </div>
+                    <div class="form-group">
+                        <label for="kilometers">Kilometers</label><input type="number" class="form-control" id="kilometers" name="" placeholder="Kilometers" oninput="convertToOthers('kilometers',this.value)">
+                    </div>
+                    <div class="d-flex justify-content-center mt-3">
+                        <button class="btn btn-primary" id="resetButton" onclick="resetFields()">Reset</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+    
+    
+
+  <script src="assets/js/script.js"  ></script>
+</body>
+</html>

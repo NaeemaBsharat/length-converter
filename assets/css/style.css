@@ -1,0 +1,16 @@
+
+body {
+    background: #009688;
+    color: #fff;
+    margin-top: 70px;
+}
+
+.custom-card {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.custom-card .form-group {
+    margin-bottom: 2px; }
+    .card-title {
+        margin-bottom: 2px; /* Adjust this value as needed */
+    }
