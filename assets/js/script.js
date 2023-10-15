@@ -1,12 +1,12 @@
 
 
-let meters    =document.getElementById("meters");
-let centimeters   =document.getElementById("centimeters");
-let inches   =document.getElementById("inches");
-let feet      =document.getElementById("feet");
-let yards    =document.getElementById("yards");
-let miles     =document.getElementById("miles");
-let kilometers    =document.getElementById("kilometers");
+const meters    =document.getElementById("meters");
+const centimeters   =document.getElementById("centimeters");
+const inches   =document.getElementById("inches");
+const feet      =document.getElementById("feet");
+const yards    =document.getElementById("yards");
+const miles     =document.getElementById("miles");
+const kilometers    =document.getElementById("kilometers");
 
 
 
@@ -79,7 +79,8 @@ function kmToOther(val){
     yards.value = val*1093.6; 
     miles.value = val*0.62137;
 }
-// *********************//
+
+
 
 function convertToOthers(convertFrom,value){    
     switch(convertFrom){
