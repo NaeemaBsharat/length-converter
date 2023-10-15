@@ -1,22 +1,41 @@
-
 body {
     background: #009688;
     color: #fff;
     margin-top: 70px;
 }
-
+.form-group label{
+    color: black;
+}
 .custom-card {
+  background-color: burlywood;
     max-width: 500px;
     margin: 0 auto;
+    padding: 10px; 
 }
+
 .custom-card .form-group {
-    margin-bottom: 2px; }
+    margin-bottom: 5px; 
+}
 
-    
-    .card-title {
-        margin-bottom: 2px; /* Adjust this value as needed */
-    }
+.card-title {
+    margin-bottom: 10px;
+}
 
+.btn-primary {
+    padding: 5px 15px; 
+}
+
+.d-flex {
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+}
+
+.card {
+    margin-bottom: 10px; 
+}
+button{
+    background-color: #04665b !important;
+}
 
 
    
